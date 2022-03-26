@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 import django_postgres_extensions
 
-setup(name='django_postgres_extensions',
+setup(name='django_postgres_extensions_up',
     version=django_postgres_extensions.__version__,
     description="Extra features for django.contrib.postgres",
     long_description=open('description.rst').read(),
