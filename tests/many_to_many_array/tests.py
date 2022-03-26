@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from django.db import transaction
 from django.test import TestCase
-from django.utils import six
+import six
 
 from .models import Article, InheritedArticleA, InheritedArticleB, Publication
 
